@@ -1,0 +1,277 @@
+.logo {
+  float: left;
+  width: 100%;
+  height: 50px;
+  padding-left: 5%;
+}
+
+#hero {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute 0 0;
+  background-attachment: fixed;
+  background-image: url("../images/hero_bg_1.jpg");
+}
+
+h1 {
+  font-family: "Pinyon Script", cursive;
+  font-size: 70px;
+  color: orange;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+  text-transform: uppercase;
+}
+
+.text {
+  color: lightgray;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#hero_intro h1 {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  top: 13%;
+}
+
+#hero_intro h3 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  top: 13%;
+  }
+
+#hero .text {
+  text-align: center;
+}
+
+#box_1 {
+  background-color: white;
+}
+
+.clear {
+  clear: both;
+}
+
+#box_2 {
+  background-color: white;
+  width: 50%;
+  height: 400px;
+  margin-top: 70px;
+  text-align: center;
+  float: left;
+}
+
+#box_3 {
+  background-image: url("../images/img_1.jpg");
+  height: 400px;
+  width: 40%;
+  margin-top: 70px;
+  margin-right: 5%;
+  padding: 0px;
+  float: right;
+  text-align: center;
+}
+
+
+#box_2 h1 {
+  position: relative;
+  text-align: center;
+  top: 5%;
+}
+
+#box_2 h3 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: black;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin-top: -85px;
+}
+
+.description {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: lightgray;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.asterisk {
+  color: lightgray;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.about_us {
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* once the image for discover comes into play, add:
+.clear {
+clear: both;
+}
+
+
+ then go into the html and add class of clear div class "clear" div */
+#nav-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-transform: uppercase;
+  float: right;
+  font-family: ;
+}
+
+.nav-link {
+  display: inline;
+  padding: 5px 15px 5px 15px;
+  list-style: none;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: white;
+}
+
+#events_section {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('../images/hero_bg_4.jpg');
+}
+
+#events_section h1 {
+  position: relative;
+  text-align: center;
+  top: 31%;
+}
+
+#events_section h3 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 13%;
+}
+
+.event_list {
+  width: 25%;
+  height: 300px;
+  margin: 2.5%;
+  padding-top: 25%;
+  float: left;
+  background-color: white;
+  text-align: left;
+  color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -20px;
+  font-family:sans-serif;
+}
+
+.event_list p {
+  color: gray;
+}
+
+.events {
+  background-color: lightgray;
+  height: 700px;
+}
+
+.page-row {
+  width: 100%;
+  clear: both;
+  padding: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#event_1 {
+  background-image: url('../images/img_square_2.jpg');
+}
+
+#event_1 p {
+  padding-left: 10%;
+}
+
+#event_1 h3 {
+  font-size: 20px;
+  padding-left: 10%;
+}
+
+#event_2 {
+  background-image: url('../images/img_square_3.jpg');
+}
+
+#event_2 p {
+  padding-left: 10%;
+}
+
+#event_2 h3 {
+  font-size: 20px;
+  padding-left: 10%;
+}
+
+#event_3 {
+  background-image: url('../images/img_square_4.jpg');
+}
+
+#event_3 p {
+  padding-left: 10%;
+}
+
+#event_3 h3 {
+  font-size: 20px;
+  padding-left: 10%;
+}
+
+.date {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: gray;
+  padding-left: 10%;
+  padding-top: 7%;
+}
+
+.Read_more a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding-left: 10%;
+}
+
+.Read_more:hover {
+  text-decoration: none;
+}
+
+/* from here, it's all notes from watching
+
+on discover our store:
+- get the discover image sized before you try to set the margins
+
+400 px
+
+for the text, take out the margins, essentially, make them negative - see the graph in inspect
+to see how much space is being taken up by each.
